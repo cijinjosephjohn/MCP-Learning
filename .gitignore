@@ -29,6 +29,8 @@ venv/
 .env
 .flaskenv
 uv.lock 
+**/.env
+**/uv.lock
 
 # Common OS files
 .DS_Store # Mac
