@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+# Also include .pyo files for completeness, though less common now
+# *.pyo 
+
+# Distribution / packaging
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+
+# Virtual environments
+# This pattern will ignore any folder named .venv or venv 
+# at the root level or in a subdirectory.
+.venv
+venv/
+# Add an extra pattern for environments that might be named otherwise, e.g., "env"
+# env/ 
+# This is a more generalized approach using the leading ** for Venvs anywhere
+# **/venv
+# **/.venv
+
+# Environmental Variables
+# Note: It's best practice to put specific file names in .gitignore, 
+# not use wildcards at the start unless you intend to ignore all files 
+# with that name across the project.
+.env
+.flaskenv
+uv.lock 
+
+# Common OS files
+.DS_Store # Mac
+Thumbs.db # Windows
+
+# Temporary files created by editors/IDEs (example: VS Code or PyCharm)
+# Adjust or add as needed for your specific IDE
+.vscode/
+.idea/
