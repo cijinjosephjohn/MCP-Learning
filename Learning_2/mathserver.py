@@ -21,4 +21,3 @@ def multiple(a:int,b:int)-> int:
 #Use standard i/p and o/p to receive and respond to tool function calls
 if __name__ =="__main__":
     mcp.run(transport="stdio")
-
